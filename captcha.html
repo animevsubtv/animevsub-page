@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xác Minh An Toàn - AnimeVietsub</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:'Poppins',sans-serif;background:linear-gradient(135deg,#ff9a9e,#fecfef,#ff6b6b,#d63384);min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative}
+        body{font-family:'Poppins','Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:linear-gradient(135deg,#ff9a9e,#fecfef,#ff6b6b,#d63384);min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative}
         .container{max-width:1200px;width:100%;margin:0 auto;padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;min-height:100vh}
         .left-section{background:rgba(255,255,255,0.95);backdrop-filter:blur(25px);border-radius:25px;padding:40px;box-shadow:0 20px 40px rgba(220,38,38,0.15);border:2px solid rgba(255,182,193,0.3);position:relative}
         .left-section::before{content:'';position:absolute;top:0;left:0;right:0;height:6px;background:linear-gradient(90deg,#ff6b6b,#e91e63,#d63384);border-radius:25px 25px 0 0}
@@ -61,23 +60,23 @@
     <div class="container">
         <div class="left-section">
             <div class="logo">
-                <i class="fas fa-torii-gate"></i>
+                <span style="font-size:36px;">⛩️</span>
                 <h1>AnimeVietsub</h1>
             </div>
             <h2 class="main-title">Xác Minh Bảo Mật ✨</h2>
             <p class="subtitle">Chúng tôi cần xác minh rằng bạn là người thật để bảo vệ trang web khỏi các cuộc tấn công tự động. Cảm ơn bạn đã kiên nhẫn! 🌸</p>
             <div class="domain-info">
-                <i class="fas fa-globe"></i>
+                <span style="font-size:18px;">🌐</span>
                 Đang truy cập: <span id="domainName"></span>
             </div>
             <div class="instruction">
-                <h3><i class="fas fa-magic"></i> Hướng dẫn xác minh</h3>
+                <h3><span style="font-size:16px;">🔎</span> Hướng dẫn xác minh</h3>
                 <p>Vui lòng đợi một chút để hệ thống tải ô xác minh bên dưới, sau đó click vào ô đó để hoàn tất quá trình xác minh. ✨</p>
             </div>
             <div class="verification-section">
                 <h3>🛡️ Khu vực xác minh</h3>
                 <div class="captcha-placeholder">
-                    <i class="fas fa-heart" style="font-size: 24px; color: #ff6b6b; margin-bottom: 12px;"></i>
+                    <span style="font-size: 24px; color: #ff6b6b; margin-bottom: 12px;">❤️</span>
                     <br>
                     <strong>::CAPTCHA_BOX::</strong>
                     <br>
@@ -85,44 +84,44 @@
                 </div>
             </div>
             <div class="warning">
-                <h3><i class="fas fa-star"></i> Lưu ý quan trọng</h3>
+                <h3><span style="font-size:16px;">⭐</span> Lưu ý quan trọng</h3>
                 <p>Nếu không thấy ô xác minh, vui lòng thử với trình duyệt khác hoặc tắt trình chặn quảng cáo. Đôi khi phép thuật cần thời gian! 🎭</p>
             </div>
             <div class="error">
-                <h3><i class="fas fa-redo-alt"></i> Gặp vấn đề?</h3>
+                <h3><span style="font-size:16px;">🔄</span> Gặp vấn đề?</h3>
                 <p>Nếu xác minh bị lỗi lặp lại, hãy thử tải lại trang hoặc sử dụng trình duyệt khác. Mọi thứ sẽ ổn thôi! 💪</p>
             </div>
             <div style="text-align: center; margin-bottom: 20px;">
                 <button id="unregisterButton" class="btn btn-primary">
-                    <i class="fas fa-sparkles"></i>
+                    <span style="font-size:16px;">✨</span>
                     Tải Lại Trang
                 </button>
             </div>
             <div style="text-align: center; margin-bottom: 20px;">
                 <a href="https://www.facebook.com/animevietsub.info" class="contact-link">
-                    <i class="fab fa-facebook"></i>
+                    <span style="font-size:16px;">📘</span>
                     Liên hệ Admin để được hỗ trợ
                 </a>
             </div>
             <div class="footer">
                 <ul>
-                    <li><i class="fas fa-fingerprint"></i> Cloudflare ID: ::RAY_ID::</li>
-                    <li><i class="fas fa-map-marker-alt"></i> IP: ::CLIENT_IP::</li>
-                    <li><i class="fas fa-shield-alt"></i> Bảo mật bởi Cloudflare</li>
+                    <li><span style="font-size:14px;">🆔</span> Cloudflare ID: ::RAY_ID::</li>
+                    <li><span style="font-size:14px;">📍</span> IP: ::CLIENT_IP::</li>
+                    <li><span style="font-size:14px;">🛡️</span> Bảo mật bởi Cloudflare</li>
                 </ul>
             </div>
         </div>
         <div class="right-section">
             <div class="anime-illustration">
-                
+                <img src="a.jpg" alt="Anime Character" />
             </div>
             <h3>Trải nghiệm anime tuyệt vời 🌸</h3>
             <p>Hàng nghìn bộ anime chất lượng cao đang chờ bạn khám phá! Hãy cùng nhau tạo nên những kỷ niệm đẹp! ✨</p>
             <ul class="feature-list">
-                <li><i class="fas fa-gem"></i><span>Chất lượng HD/Full HD cực nét</span></li>
-                <li><i class="fas fa-language"></i><span>Phụ đề tiếng Việt chất lượng</span></li>
-                <li><i class="fas fa-rocket"></i><span>Cập nhật nhanh như chớp</span></li>
-                <li><i class="fas fa-gift"></i><span>Hoàn toàn miễn phí</span></li>
+                <li><span style="font-size:18px;">💎</span><span>Chất lượng HD/Full HD cực nét</span></li>
+                <li><span style="font-size:18px;">🌐</span><span>Phụ đề tiếng Việt chất lượng</span></li>
+                <li><span style="font-size:18px;">🚀</span><span>Cập nhật nhanh như chớp</span></li>
+                <li><span style="font-size:18px;">🎁</span><span>Hoàn toàn miễn phí</span></li>
             </ul>
         </div>
     </div>

@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bị Chặn Bởi WAF - AnimeVietsub</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:'Poppins',sans-serif;background:linear-gradient(135deg,#ff9a9e,#fecfef,#ff6b6b,#d63384);min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative}
+        body{font-family:'Poppins','Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:linear-gradient(135deg,#ff9a9e,#fecfef,#ff6b6b,#d63384);min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative}
         .container{max-width:1200px;width:100%;margin:0 auto;padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;min-height:100vh}
         .left-section{background:rgba(255,255,255,0.95);backdrop-filter:blur(25px);border-radius:25px;padding:40px;box-shadow:0 20px 40px rgba(220,38,38,0.15);border:2px solid rgba(255,182,193,0.3);position:relative}
         .left-section::before{content:'';position:absolute;top:0;left:0;right:0;height:6px;background:linear-gradient(90deg,#ff6b6b,#e91e63,#d63384);border-radius:25px 25px 0 0}
@@ -52,42 +51,42 @@
     <div class="container">
         <div class="left-section">
             <div class="logo">
-                <i class="fas fa-torii-gate"></i>
+                <span style="font-size:36px;">⛩️</span>
                 <h1>AnimeVietsub</h1>
             </div>
             <h2 class="main-title">Bị Chặn Bởi WAF! 🛡️</h2>
             <p class="subtitle">Yêu cầu của bạn đã bị Web Application Firewall chặn lại 🌸</p>
             <div class="waf-alert">
-                <i class="fas fa-ban"></i>
+                <span style="font-size:18px;">⛔</span>
                 Phát hiện hoạt động đáng ngờ - Request ID: ::REQUEST_ID::
             </div>
             <div class="block-section">
-                <h3><i class="fas fa-shield-alt"></i> Lý do bị chặn</h3>
+                <h3><span style="font-size:18px;">🛡️</span> Lý do bị chặn</h3>
                 <p>WAF (Web Application Firewall) đã phát hiện yêu cầu của bạn chứa pattern có thể gây hại đến hệ thống. Đây là biện pháp bảo vệ tự động. ✨</p>
             </div>
             <div class="reason-section">
-                <h3><i class="fas fa-exclamation-triangle"></i> Nguyên nhân có thể</h3>
+                <h3><span style="font-size:18px;">⚠️</span> Nguyên nhân có thể</h3>
                 <p>• SQL Injection pattern trong URL/form<br>• Cross-site scripting (XSS) attempt<br>• File inclusion attack<br>• Command injection pattern<br>• Malicious request headers 🎭</p>
             </div>
             <div class="solution-section">
-                <h3><i class="fas fa-lightbulb"></i> Cách khắc phục</h3>
+                <h3><span style="font-size:18px;">💡</span> Cách khắc phục</h3>
                 <p>• Kiểm tra lại URL hoặc form data<br>• Loại bỏ ký tự đặc biệt không cần thiết<br>• Sử dụng trình duyệt khác<br>• Thử lại sau vài phút<br>• Liên hệ admin nếu cần 💪</p>
             </div>
             <div class="contact-section">
                 <h3>🆘 Cần hỗ trợ?</h3>
                 <p>Nếu bạn tin rằng đây là nhầm lẫn, hãy liên hệ với chúng tôi!</p>
                 <a href="https://www.facebook.com/animevietsub.info" class="contact-button">
-                    <i class="fab fa-facebook"></i> Liên hệ Admin
+                    <span style="font-size:18px;">📘</span> Liên hệ Admin
                 </a>
                 <a href="mailto:support@animevietsub.tv" class="contact-button">
-                    <i class="fas fa-envelope"></i> Email hỗ trợ
+                    <span style="font-size:18px;">✉️</span> Email hỗ trợ
                 </a>
             </div>
             <div class="footer">
                 <ul>
-                    <li><i class="fas fa-fingerprint"></i> Ray ID: ::RAY_ID::</li>
-                    <li><i class="fas fa-map-marker-alt"></i> IP: ::CLIENT_IP::</li>
-                    <li><i class="fas fa-shield-alt"></i> Bảo mật bởi Cloudflare</li>
+                    <li><span style="font-size:14px;">🆔</span> Ray ID: ::RAY_ID::</li>
+                    <li><span style="font-size:14px;">📍</span> IP: ::CLIENT_IP::</li>
+                    <li><span style="font-size:14px;">🛡️</span> Bảo mật bởi Cloudflare</li>
                 </ul>
             </div>
         </div>
@@ -98,10 +97,10 @@
             <h3>Web Application Firewall 🔥</h3>
             <p>Công nghệ WAF tiên tiến giúp chúng tôi bảo vệ ứng dụng khỏi các cuộc tấn công phức tạp! ✨</p>
             <ul class="feature-list">
-                <li><i class="fas fa-bug"></i><span>Chặn SQL Injection</span></li>
-                <li><i class="fas fa-code"></i><span>Ngăn chặn XSS</span></li>
-                <li><i class="fas fa-file-shield"></i><span>Bảo vệ file upload</span></li>
-                <li><i class="fas fa-brain"></i><span>Machine Learning detection</span></li>
+                <li><span style="font-size:18px;">🐞</span><span>Chặn SQL Injection</span></li>
+                <li><span style="font-size:18px;">💻</span><span>Ngăn chặn XSS</span></li>
+                <li><span style="font-size:18px;">🗂️</span><span>Bảo vệ file upload</span></li>
+                <li><span style="font-size:18px;">🧠</span><span>Machine Learning detection</span></li>
             </ul>
         </div>
     </div>

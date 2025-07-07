@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xác Minh An Toàn - AnimeVietsub</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:'Poppins',sans-serif;background:linear-gradient(135deg,#ff9a9e,#fecfef,#ff6b6b,#d63384);min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative}
+        body{font-family:'Poppins','Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:linear-gradient(135deg,#ff9a9e,#fecfef,#ff6b6b,#d63384);min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative}
         .container{max-width:1200px;width:100%;margin:0 auto;padding:20px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;min-height:100vh}
         .left-section{background:rgba(255,255,255,0.95);backdrop-filter:blur(25px);border-radius:25px;padding:40px;box-shadow:0 20px 40px rgba(220,38,38,0.15);border:2px solid rgba(255,182,193,0.3);position:relative}
         .left-section::before{content:'';position:absolute;top:0;left:0;right:0;height:6px;background:linear-gradient(90deg,#ff6b6b,#e91e63,#d63384);border-radius:25px 25px 0 0}
         .right-section{background:rgba(255,255,255,0.15);backdrop-filter:blur(25px);border-radius:25px;padding:40px;border:2px solid rgba(255,255,255,0.3);display:flex;flex-direction:column;align-items:center;text-align:center;color:white;position:relative}
         .logo{display:flex;align-items:center;gap:15px;margin-bottom:24px}
-        .logo i{font-size:36px;background:linear-gradient(45deg,#ff6b6b,#e91e63,#d63384);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+        .logo span{font-size:36px;}
         .logo h1{font-size:24px;font-weight:700;background:linear-gradient(45deg,#2d3748,#4a5568);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin:0}
         .main-title{font-size:28px;font-weight:700;background:linear-gradient(45deg,#1e293b,#334155);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:16px;line-height:1.2}
         .subtitle{font-size:16px;color:#64748b;margin-bottom:24px;line-height:1.6;font-weight:500}
@@ -51,33 +50,33 @@
     <div class="container">
         <div class="left-section">
             <div class="logo">
-                <i class="fas fa-torii-gate"></i>
+                <span style="font-size:36px;">⛩️</span>
                 <h1>AnimeVietsub</h1>
             </div>
             <h2 class="main-title">Chế Độ Bảo Vệ! 🛡️</h2>
             <p class="subtitle">Trang web đang chịu tấn công và kích hoạt chế độ bảo vệ tự động 🌸</p>
             <div class="alert-section">
-                <h3><i class="fas fa-exclamation-triangle"></i> Cảnh báo tấn công</h3>
+                <h3><span style="font-size:18px;">⚠️</span> Cảnh báo tấn công</h3>
                 <div class="attack-indicator">
-                    <i class="shield-animation fas fa-shield-alt" style="font-size: 24px; margin-bottom: 8px;"></i><br>
+                    <span class="shield-animation" style="font-size: 24px; margin-bottom: 8px;">🛡️</span><br>
                     <strong>ĐANG CHỐNG TẤN CÔNG DDoS</strong>
                 </div>
                 <div class="countdown" id="countdown">15</div>
                 <small>Tự động chuyển hướng sau khi kiểm tra hoàn tất ✨</small>
             </div>
             <div class="status-section">
-                <h3><i class="fas fa-chart-line"></i> Trạng thái hệ thống</h3>
+                <h3><span style="font-size:18px;">📈</span> Trạng thái hệ thống</h3>
                 <p>• Phát hiện lưu lượng bất thường<br>• Kích hoạt bộ lọc DDoS<br>• Xác minh người dùng thật<br>• Bảo vệ tài nguyên server 🎭</p>
             </div>
             <div class="info-section">
-                <h3><i class="fas fa-info-circle"></i> Thông tin quan trọng</h3>
+                <h3><span style="font-size:18px;">ℹ️</span> Thông tin quan trọng</h3>
                 <p>Chế độ này sẽ tự động tắt khi mối đe dọa kết thúc. Bạn không cần làm gì cả, chỉ cần đợi một chút! 💪</p>
             </div>
             <div class="footer">
                 <ul>
-                    <li><i class="fas fa-fingerprint"></i> Ray ID: ::RAY_ID::</li>
-                    <li><i class="fas fa-map-marker-alt"></i> IP: ::CLIENT_IP::</li>
-                    <li><i class="fas fa-shield-alt"></i> Bảo mật bởi Cloudflare</li>
+                    <li><span style="font-size:14px;">🆔</span> Ray ID: ::RAY_ID::</li>
+                    <li><span style="font-size:14px;">📍</span> IP: ::CLIENT_IP::</li>
+                    <li><span style="font-size:14px;">🛡️</span> Bảo mật bởi Cloudflare</li>
                 </ul>
             </div>
         </div>
@@ -88,10 +87,10 @@
             <h3>Hệ thống phòng thủ tự động 🚀</h3>
             <p>Công nghệ AI tiên tiến giúp chúng tôi phát hiện và chống lại các cuộc tấn công trong thời gian thực! ✨</p>
             <ul class="feature-list">
-                <li><i class="fas fa-shield-virus"></i><span>Chống DDoS thông minh</span></li>
-                <li><i class="fas fa-brain"></i><span>AI phân tích mối đe dọa</span></li>
-                <li><i class="fas fa-bolt"></i><span>Phản ứng tức thì</span></li>
-                <li><i class="fas fa-globe"></i><span>Mạng lưới toàn cầu</span></li>
+                <li><span style="font-size:18px;">🛡️</span><span>Chống DDoS thông minh</span></li>
+                <li><span style="font-size:18px;">🧠</span><span>AI phân tích mối đe dọa</span></li>
+                <li><span style="font-size:18px;">⚡</span><span>Phản ứng tức thì</span></li>
+                <li><span style="font-size:18px;">🌐</span><span>Mạng lưới toàn cầu</span></li>
             </ul>
         </div>
     </div>
